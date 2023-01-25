@@ -1,0 +1,84 @@
+html {
+  font-size: 1em;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  background: cornflowerblue;
+  color: white;
+
+  width: 80%;
+  margin: 0 auto;
+
+  padding: 2em;
+}
+
+.grid {
+  display: flex;
+}
+
+/* EM */
+
+.col--em {
+  font-size: 2em;
+}
+
+.col--em h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.col--em p {
+  font-size: 1em;
+  padding: 1rem;
+}
+
+/* REM */
+
+.col--rem {
+  font-size: 2rem;
+}
+
+.col--rem h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.col--rem p {
+  font-size: 1rem;
+  padding: 1em;
+}
+
+/* buttons */
+
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: orange;
+  color: white;
+  font-weight: 700;
+
+  font-size: 1em;
+
+  padding: 1em 3em;
+}
+
+.btn--small {
+  font-size: .5em;
+}
+
+.btn--large {
+  font-size: 1.5em;
+}
+
+.btn--em {
+  padding: 1em 3em;
+}
+
+.btn--rem {
+  padding: 1rem 3rem;
+}
