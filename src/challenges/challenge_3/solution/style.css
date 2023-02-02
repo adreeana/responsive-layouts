@@ -1,47 +1,54 @@
-* {
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-size: 1.3rem;
 }
 
-.container {
-  margin: 0 auto;
-
-  background: #23424A;
-  color: white;
-  padding: 148px 0 147px 122px;
-}
-
-.container h1 {
+h1 {
   font-size: 3rem;
 }
 
-.container p {
-  font-size: 1.3rem;
-  letter-spacing: 0.05rem;
+.container {
+  padding: 100px 0;
+
+  background: #23424A;
+  color: white;
 }
 
 .content {
-  width: 50%;
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 80%;
+}
+
+.content__text {
+  width: 80%;
+}
+
+.content p {
+  margin-bottom: 3em;
 }
 
 .btn {
-  border-radius: 2rem;
+  display: inline-block;
   background: #38CFD9;
 
-  margin-top: 4rem;
-  padding: 1rem 3rem;
+  padding: 0.75em 2em;
+  border-radius: 100px;
 
-  color: black;
+  color: #23424A;
+  text-decoration: none;
   text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1.5rem;
-  letter-spacing: 0.05rem;
-  text-align: center;
+  font-weight: 900;
 
   max-width: 19rem;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.75;
 }
