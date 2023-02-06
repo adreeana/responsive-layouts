@@ -77,22 +77,35 @@ h2 {
     color: #87629A;
 }
 
-.container__colored {
-    width: 100%;
-    background: #136C72;
-    color: white;
+.three_cols {
+    padding: 3em 0;
+    text-align: center;
 }
 
-.container__colored h2 {
+.three_cols h2 {
+    color: #87629A;
+}
+
+.two_cols {
+    background: #136C72;
+    color: white;
+
+    padding: 3em 0;
+    text-align: center;
+}
+
+.two_cols h2 {
     color: white;
 }
 
 .row {
     display: flex;
-    padding: 2.5rem;
-    gap: 2rem;
 }
 
 .col {
-    text-align: center;
+}
+
+/* does not work. why? */
+.col + .col {
+    margin-right: 2rem;
 }
