@@ -1,0 +1,94 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+.hero {
+    padding: 100px 0;
+    background-color: #23424A;
+    color: #FFF;
+}
+
+.hero__text {
+    width: 60%;
+}
+
+.hero__img {
+    align-self: flex-start;
+}
+
+.hero p {
+    margin-bottom: 3em;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #23424A;
+    font-weight: 900;
+    background-color: #38CFD9;
+    padding: .75em 2em;
+    border-radius: 100px;
+}
+
+.btn:hover,
+.btn:focus {
+    opacity: .75;
+}
+
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.container h2 {
+    color: #87629A;
+}
+
+.three_cols {
+    padding: 3em 0;
+    text-align: center;
+}
+
+.three_cols h2 {
+    color: #87629A;
+}
+
+.two_cols {
+    background: #136C72;
+    color: white;
+
+    padding: 3em 0;
+    text-align: center;
+}
+
+.two_cols h2 {
+    color: white;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+}
+
+/* does not work. why? */
+.col + .col {
+    margin-right: 2rem;
+}
